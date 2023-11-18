@@ -1,4 +1,4 @@
-simply clone the repo in local machine via "npm install" commands.
+simply clone the repo in local machine then type "npm install" commands to install the package.
 
 added add task, delete, and update features.
 
