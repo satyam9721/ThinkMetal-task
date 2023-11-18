@@ -1,0 +1,24 @@
+/* task.css */
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task.done {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-buttons button {
+    margin-left: 5px;
+  }
+  

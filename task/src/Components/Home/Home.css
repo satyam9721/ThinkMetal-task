@@ -1,0 +1,90 @@
+/* task.css */
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .task.done {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .task-buttons button {
+    margin-left: 5px;
+  }
+  
+  /* task.css */
+
+/* General styling for inputs */
+input {
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px); /* Adjusting width to fit the container */
+    max-width: 400px; /* Maximum width to maintain readability */
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Styling for focused input */
+  input:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    input {
+      width: calc(100% - 15px); /* Adjust width for smaller screens */
+      font-size: 14px; /* Decrease font size for better readability */
+    }
+  }
+/* General styling for buttons */
+.add {
+    margin-left: 9px;
+    border: 2px solid ; /* Button border */
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #f6ff00; /* Button background color */
+    color: #000000; /* Button text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  /* Styling for button hover */
+  .add:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  /* Styling for button focus */
+ .add:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+  }  
+
+  /* task.css */
+
+/* Styling for the span element */
+span {
+    margin-top: 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
